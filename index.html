@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login UI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+       <div class="card">
+        <div class="register">
+
+        </div>
+        <div class="label">
+            <h1>Hello, Welcome!</h1>
+            <p>Don't have an account?</p>
+            <button id="register">Register</button>
+        </div>
+        <div class="login">
+            <h1>Login</h1>
+            <form action="/login">
+                <div class="input-area">
+                    <input type="text" name="username" id="user" placeholder="Username" required>
+                    <img width="18" height="18" src="https://img.icons8.com/material-sharp/24/user.png" alt="user"/>
+                </div>
+                <div class="input-area">
+                    <input type="password" name="username" id="user" placeholder="Password" required>
+                    <img width="18" height="18" src="https://img.icons8.com/ios-filled/50/lock.png" alt="lock"/>
+                </div>
+                <p class="forget-password">Forgot password?</p>
+                <button type="submit" class="loginBtn">Login</button>
+                <p id="social">or login with social platform</p>
+                <div class="platform">
+                    <div class="icons">
+                        <img width="48" height="48" src="https://img.icons8.com/color/48/google-logo.png" alt="google-logo"/>
+                    </div>
+                    <div class="icons">
+                        <img width="48" height="48" src="https://img.icons8.com/color/48/facebook.png" alt="facebook"/>
+                    </div>
+                    <div class="icons">
+                        <img width="100" height="100" src="https://img.icons8.com/plasticine/100/github.png" alt="github"/>
+                    </div>
+                    <div class="icons">
+                        <img width="48" height="48" src="https://img.icons8.com/color/48/linkedin.png" alt="linkedin"/>
+                    </div>
+                </div>
+            </form>
+        </div>
+       </div>
+    </div>
+</body>
+</html>
